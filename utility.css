@@ -1,0 +1,66 @@
+.border{
+    border: 2px solid red;
+    margin: 3px;
+}
+html, body {
+    height: 100%;       /* Make sure body covers full viewport */
+    margin: 0;          /* Remove default margin */
+}
+
+body:hover {
+      background: radial-gradient(circle at center, #ffffff, #171616);
+      z-index: 3;
+    }
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.item-center{
+    align-items: center;
+}
+.bg-black{
+    background-color: black;
+    color: white;}
+.invert{
+    filter: invert(1);
+
+}
+.bg-grey{
+    background-color: #121212;
+
+}
+.rounded{
+    border-radius: 7px;
+}
+.m1{
+    margin: 2%;
+}
+.p1{
+    padding: 10px;
+}
+/* Apply this to the whole website */
+body {
+  scrollbar-width: thin;              /* For Firefox */
+  scrollbar-color: #444 #111;         /* Thumb color | Track color */
+}
+
+/* For Chrome, Edge, and Safari */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #111;                   /* Dark background track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #444;             /* Darker thumb */
+  border-radius: 6px;
+  border: 2px solid #111;             /* Border to blend with track */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #666;             /* Slightly lighter on hover */
+}

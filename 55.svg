@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Circle boundary -->
+  <circle cx="256" cy="256" r="200" fill="white" stroke="black" stroke-width="2"/>
+
+  <!-- "JK" text -->
+  <text x="150" y="270" font-family="Times New Roman, serif" font-size="100" fill="darkgreen">
+    JK
+  </text>
+
+  <!-- "Music" text -->
+  <text x="235" y="270" font-family="Brush Script MT, cursive" font-size="90" fill="black">
+    Music
+  </text>
+</svg>
